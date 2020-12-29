@@ -81,7 +81,7 @@ function keyPressed() {
   if (key == '7') current_shape = shapes[6];
 
   if (keyCode == UP_ARROW) shape_size += 5;
-  if (keyCode == DOWN_ARROW) shape_size = max(shapeSize - 5, 5);
+  if (keyCode == DOWN_ARROW) shape_size = max(shape_size - 5, 5);
   if (keyCode == LEFT_ARROW) shape_angle += 5;
   if (keyCode == RIGHT_ARROW) shape_angle -= 5;
 }
